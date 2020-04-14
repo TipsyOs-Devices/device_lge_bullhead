@@ -15,7 +15,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/validus_bullhead.mk
+    $(LOCAL_DIR)/tipsy_bullhead.mk
 
 COMMON_LUNCH_CHOICES := \
-    validus_bullhead-userdebug
+    tipsy_bullhead-userdebug

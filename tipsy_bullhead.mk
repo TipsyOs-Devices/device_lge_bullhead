@@ -2,14 +2,14 @@
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
-# Inherit some common Validus stuff.
-$(call inherit-product, vendor/validus/config/common_full_phone.mk)
+# Inherit some common Tipsy stuff.
+$(call inherit-product, vendor/tipsy/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/lge/bullhead/aosp_bullhead.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := validus_bullhead
+PRODUCT_NAME := tipsy_bullhead
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Nexus 5X
 TARGET_MANUFACTURER := LGE
