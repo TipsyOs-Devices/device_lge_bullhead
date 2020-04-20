@@ -1,10 +1,12 @@
 [
   {
+    "remote": "gh",
     "repository": "GZR-Kernels/kernel_lge_bullhead",
     "target_path": "kernel/lge/bullhead",
     "branch": "10.0"
   },
   {
+    "remote": "gh",
     "repository": "BigTopKrazies/vendor_lge_bullhead",
     "target_path": "vendor/lge/bullhead",
     "branch": "10.0"
